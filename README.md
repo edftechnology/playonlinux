@@ -32,8 +32,8 @@ Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu`, você pod
     2.1 Limpar o `cache` do gerenciador de pacotes `apt`. Especificamente, ele remove todos os arquivos de pacotes (`.deb`) baixados pelo `apt` e armazenados em `/var/cache/apt/archives/`. Digite o seguinte comando:
     ```bash
     sudo apt clean
-    ```
 
+    ```
     2.2 Remover pacotes `.deb` antigos ou duplicados do `cache` local. É útil para liberar espaço, pois remove apenas os pacotes que não podem mais ser baixados (ou seja, versões antigas de pacotes que foram atualizados). Digite o seguinte comando:
     ```bash
     sudo apt autoclean
@@ -77,14 +77,14 @@ Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu`, você pod
 
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
-    ```
+    ```bash
     whereis playonlinux
     /usr/bin/playonlinux /usr/share/playonlinux /usr/share/man/man1/playonlinux.1.gz
     ```
 
     Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
     
-    ```
+    ```bash
     sudo cp /home/edenedfsls/Documents/Downloads/unix/ubuntu/playonlinux/docs/usr/bin/playonlinux /usr/bin/ 
     sudo cp -r /home/edenedfsls/Documents/Downloads/unix/ubuntu/playonlinux/docs/share/playonlinux /usr/share/ 
     sudo cp /home/edenedfsls/Documents/Downloads/unix/ubuntu/playonlinux/docs/usr/share/man/man1/playonlinux.1.gz /usr/share/man/man1/ 
@@ -117,7 +117,14 @@ Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu` sem precis
 
 ## Referências
 
-[1] OPENAI. ***Instalar o `playonlinux` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/74f27d86-e06e-4724-8c5a-e8fe2aed3754> (texto adaptado). Acessado em: 20/10/2023 22:16.
+[1] OPENAI.
+**Instalar o `playonlinux` no `linux ubuntu` pelo `terminal emulator`.**
+Disponível em: <https://chat.openai.com/c/74f27d86-e06e-4724-8c5a-e8fe2aed3754> (texto adaptado).
+ChatGPT.
+Acessado em: 20/10/2023 22:16.
 
-[2] OPENAI. ***Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 14/11/2023 09:33.
+[2] OPENAI.
+**Vs code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado).
+ChatGPT.
+Acessado em: 14/11/2023 09:33.
 
