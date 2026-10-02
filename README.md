@@ -75,6 +75,20 @@ Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu`, você pod
     sudo apt install playonlinux -y
     ```
 
+    O pacote do Ubuntu instala as dependências Python do `PlayOnLinux`, incluindo `python3-wxgtk4.0` (wxPython) e `python3-natsort`. Não é necessário instalar essas bibliotecas com `pip` no Python global. Se uma dependência estiver ausente, reinstale pelos pacotes do Ubuntu:
+
+    ```bash
+    sudo apt install python3-wxgtk4.0 python3-natsort -y
+    ```
+
+    As bibliotecas de desenvolvimento do wxWidgets são necessárias apenas para compilar o wxPython a partir do código-fonte; elas não são necessárias para instalar o `PlayOnLinux` pelo `apt`. Para compilar o wxPython no Ubuntu 22.04, instale as dependências de compilação:
+
+    ```bash
+    sudo apt install build-essential libgtk-3-dev libjpeg-dev libtiff-dev libpng-dev libwxgtk3.0-gtk3-dev -y
+    ```
+
+    Para o uso normal do `PlayOnLinux`, mantenha as bibliotecas Python instaladas pelo `apt`; não execute `pip install wxPython` ou `pip install natsort` no Python global.
+
     **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
     
     ```bash
